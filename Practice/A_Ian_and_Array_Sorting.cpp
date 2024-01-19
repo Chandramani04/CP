@@ -97,33 +97,6 @@ struct custom_hash {
 };
 #define MAXN 1000001
 int spf[MAXN];
-// Time Complexity : O(nloglogn)
-void get_spf() {
-    spf[1] = 1;
-    for (int i = 2; i < MAXN; i++) {
-        spf[i] = i;
-    }
-    for (int i = 4; i < MAXN; i += 2) {
-        spf[i] = 2;
-    }
-    for (int i = 3; i * i < MAXN; i++) {
-        if (spf[i] == i) {
-            for (int j = i * i; j < MAXN; j += i) {
-                if (spf[j] == j) spf[j] = i;
-            }
-        }
-    }
-}
-// A O(log n) function returning primefactorization
-// by dividing by smallest prime factor at every step
-vector<int> get_prime_factors(int n) {
-    vector<int> ans;
-    while (n != 1) {
-        ans.push_back(spf[n]);
-        n /= spf[n];
-    }
-    return ans;
-}
 bool isPrime(int n) {
     if (n <= 1) {
         return false;
