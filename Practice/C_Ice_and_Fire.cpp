@@ -243,58 +243,35 @@ vi frequency(vi v) {
 
 /*---------------------------Code Begins---------------------------------------*/
 void solve() {
-    int a, b;
-    cin >> a >> b;
-    int sa = sqrtl(a), sb = sqrtl(b);
-    // cout << sa << " " << sb << endl;
-    int betweensq = sb - sa - 1;
-    int ans = betweensq * 3;
+    int n;
+    cin >> n;
+    string s;
+    cin >> s;
 
-    int cnt = 0;
-    // [a ..  (sa+1)^2 -1 ]
-    int la = (a - 1) / sa;
-    int lb = (sa + 1) * (sa + 1);
-    lb--;
-    lb /= sa;
-    int left = lb - la;
-    // [sb^2 -1 .. b]
-    int ra = (sb * sb) - 1;
-    ra = ra / sb;
-    int rb = b / sb;
-    int right = rb - ra;
-    ans += left + right;
-    cout << ans << endl;
-    // for (int i = a; i < (sa + 1) * (sa + 1); i++) {
-    //     if (i % sa == 0) cnt++;
-    // }
-    // // cout << cnt << " ";
-    // ans += cnt;
-    // cnt = 0;
-    // for (int i = sb * sb; i <= b; i++) {
-    //     if (i % sb == 0) cnt++;
-    // }
-    // ans += cnt;
-    // cout << ans << endl;
-    // cout << cnt << endl;
+    // 0 0 -> previous answer = current answer
 
-    // int start, end;
-    // int cnt;
-    // // how much sa will contribute
-    // start = a, end = (sa + 1) * (sa + 1);
-    // // find numbers between start and end which are divisible by sa in constant time using formula
-    // cnt = (end - start) / sa;
-    // if (start % sa == 0) cnt++;
-    // cout << ans << " ";
-    // ans += cnt;
-    // cout << ans << " ";
-    // // how such sb will contribute
-    // start = sb * sb, end = b;
-    // cnt = (end - start) / sb;
-    // if (start % sb == 0) cnt++;
-    // ans += cnt;
-    // cout << ans << " ";
-    // cout << endl;
-    // // cout << "->" << ans << endl;
+    // 1 1 -> previous answer = current answer
+
+    // 0 1 -> at 0 temp  make 1 win and at 1 temp make x-1 win
+
+    // 1 0 -> at temp 1 make x win and at 0 temp make x-1 win
+
+    s = "00" + s;
+    vi dp(n + 1, 0);
+    dp[2] = 1;
+    repo(i, 3, n) {
+        if (s[i] == s[i - 1]) {
+            dp[i] = dp[i - 1];
+        } else if (s[i - 1] == '0' and s[i] == '1') {
+            dp[i] = i - 1;
+        } else {
+            dp[i] = i - 1;
+        }
+    }
+    repo(i, 2, n) {
+        cout << dp[i] << " ";
+    }
+    cout << endl;
 }
 signed main() {
     fastio();

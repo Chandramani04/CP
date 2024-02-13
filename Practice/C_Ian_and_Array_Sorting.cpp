@@ -243,58 +243,23 @@ vi frequency(vi v) {
 
 /*---------------------------Code Begins---------------------------------------*/
 void solve() {
-    int a, b;
-    cin >> a >> b;
-    int sa = sqrtl(a), sb = sqrtl(b);
-    // cout << sa << " " << sb << endl;
-    int betweensq = sb - sa - 1;
-    int ans = betweensq * 3;
+    int n;
+    cin >> n;
+    input(v, n);
+    if (n & 1) {
+        cout << "YES" << endl;
+        return;
+    }
 
-    int cnt = 0;
-    // [a ..  (sa+1)^2 -1 ]
-    int la = (a - 1) / sa;
-    int lb = (sa + 1) * (sa + 1);
-    lb--;
-    lb /= sa;
-    int left = lb - la;
-    // [sb^2 -1 .. b]
-    int ra = (sb * sb) - 1;
-    ra = ra / sb;
-    int rb = b / sb;
-    int right = rb - ra;
-    ans += left + right;
-    cout << ans << endl;
-    // for (int i = a; i < (sa + 1) * (sa + 1); i++) {
-    //     if (i % sa == 0) cnt++;
-    // }
-    // // cout << cnt << " ";
-    // ans += cnt;
-    // cnt = 0;
-    // for (int i = sb * sb; i <= b; i++) {
-    //     if (i % sb == 0) cnt++;
-    // }
-    // ans += cnt;
-    // cout << ans << endl;
-    // cout << cnt << endl;
-
-    // int start, end;
-    // int cnt;
-    // // how much sa will contribute
-    // start = a, end = (sa + 1) * (sa + 1);
-    // // find numbers between start and end which are divisible by sa in constant time using formula
-    // cnt = (end - start) / sa;
-    // if (start % sa == 0) cnt++;
-    // cout << ans << " ";
-    // ans += cnt;
-    // cout << ans << " ";
-    // // how such sb will contribute
-    // start = sb * sb, end = b;
-    // cnt = (end - start) / sb;
-    // if (start % sb == 0) cnt++;
-    // ans += cnt;
-    // cout << ans << " ";
-    // cout << endl;
-    // // cout << "->" << ans << endl;
+    rep(i, 1, n - 1) {
+        int gap = v[i - 1] - v[i];
+        v[i] += gap;
+        v[i + 1] += gap;
+    }
+    if (v[n - 1] < v[n - 2]) {
+        cout << "NO" << endl;
+    } else
+        cout << "YES" << endl;
 }
 signed main() {
     fastio();

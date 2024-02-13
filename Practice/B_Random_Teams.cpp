@@ -240,67 +240,30 @@ vi frequency(vi v) {
     }
     return ans;
 }
+int nc2(int n) {
+    return n * (n - 1) / 2;
+}
 
 /*---------------------------Code Begins---------------------------------------*/
 void solve() {
-    int a, b;
-    cin >> a >> b;
-    int sa = sqrtl(a), sb = sqrtl(b);
-    // cout << sa << " " << sb << endl;
-    int betweensq = sb - sa - 1;
-    int ans = betweensq * 3;
+    int n, m;
+    cin >> n >> m;
+    // find minimum pairs
 
-    int cnt = 0;
-    // [a ..  (sa+1)^2 -1 ]
-    int la = (a - 1) / sa;
-    int lb = (sa + 1) * (sa + 1);
-    lb--;
-    lb /= sa;
-    int left = lb - la;
-    // [sb^2 -1 .. b]
-    int ra = (sb * sb) - 1;
-    ra = ra / sb;
-    int rb = b / sb;
-    int right = rb - ra;
-    ans += left + right;
-    cout << ans << endl;
-    // for (int i = a; i < (sa + 1) * (sa + 1); i++) {
-    //     if (i % sa == 0) cnt++;
-    // }
-    // // cout << cnt << " ";
-    // ans += cnt;
-    // cnt = 0;
-    // for (int i = sb * sb; i <= b; i++) {
-    //     if (i % sb == 0) cnt++;
-    // }
-    // ans += cnt;
-    // cout << ans << endl;
-    // cout << cnt << endl;
+    // complete divisble
+    int x = n / m;
+    int y = n % m;
+    int min = (m - y) * nc2(x) + y * nc2(x + 1);
 
-    // int start, end;
-    // int cnt;
-    // // how much sa will contribute
-    // start = a, end = (sa + 1) * (sa + 1);
-    // // find numbers between start and end which are divisible by sa in constant time using formula
-    // cnt = (end - start) / sa;
-    // if (start % sa == 0) cnt++;
-    // cout << ans << " ";
-    // ans += cnt;
-    // cout << ans << " ";
-    // // how such sb will contribute
-    // start = sb * sb, end = b;
-    // cnt = (end - start) / sb;
-    // if (start % sb == 0) cnt++;
-    // ans += cnt;
-    // cout << ans << " ";
-    // cout << endl;
-    // // cout << "->" << ans << endl;
+    // find maximum pairs
+    int max = nc2(n - m + 1);
+    cout << min << " " << max << endl;
 }
 signed main() {
     fastio();
 
     int testcase = 1;
-    cin >> testcase;
+    // cin >> testcase;
     while (testcase--)
         solve();
 }
