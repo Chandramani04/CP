@@ -249,30 +249,28 @@ void solve() {
     cin >> x >> y;
     int n;
     cin >> n;
-    x %= MOD, y %= MOD;
-    int next = (y % MOD - x % MOD) % MOD;
-    int ans = -1;
+    // x, y, y-x, -x, -y, x-y  ||   x  , y , y-x , -x , -y, x- y
+    // 1  2   3    4   5   6
 
-    // x, y, y-x, -x, -y, x-y
-
-    // // [1 1e6]
-    // dp[1] = x;
-    // dp[1] %= MOD;
-    // dp[2] = y;
-    // dp[2] %= MOD;
-    // for (int i = 2; i < 1000000; i++) {
-    //     dp[i + 1] = (dp[i] - dp[i - 1]) % MOD;
-    // }
-    // int nx = dp[1000000 - 1], ny = dp[1000000];
-    // dp1[1] = nx;
-    // dp1[2] = ny;
-    // dp[2] %= MOD;
-    // dp[1] %= MOD;
-    // // [1e6+1  2e9]
-    // // cout << 2e9 - 1e6 << endl;
-    // cout<<2000000000-1000000<<endl;
-    // for(int i = )
-    // [1e6 2e9]
+    int t = (n) % 6;
+    int ans;
+    if (t == 1) {
+        ans = (x + MOD) % MOD;
+    } else if (t == 2) {
+        ans = (y + MOD) % MOD;
+    } else if (t == 3) {
+        ans = ((y - x) + MOD) % MOD;
+    } else if (t == 4) {
+        ans = (-x + MOD) % MOD;
+    } else if (t == 5) {
+        ans = (-y + MOD) % MOD;
+    } else if (t == 0) {
+        ans = ((x - y) + MOD) % MOD;
+    }
+    while (ans < 0) {
+        ans = (ans + MOD) % MOD;
+    }
+    cout << ans << endl;
 
     // f1 = x , f2 = y
     // fi = fi-1 + f i+1
