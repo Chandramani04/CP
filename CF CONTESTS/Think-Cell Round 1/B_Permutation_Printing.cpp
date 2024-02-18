@@ -242,38 +242,49 @@ vi frequency(vi v) {
 }
 
 /*---------------------------Code Begins---------------------------------------*/
+bool check(vi& v) {
+    int n = sz(v);
+    rep(i, 0, n) {
+        rep(j, 0, n) {
+            if (i != j) {
+                // if (i == 0 and j == 2) {
+                //     cout << v[i] << " " << v[j] << endl;
+                // }
+                // v[i]%v[j] == 0 and v[i+1]%v[j+1] = 0 ;
+                if (i < n - 1 and j < n - 1) {
+                    if (v[j] % v[i] == 0 and v[j + 1] % v[i + 1] == 0) {
+                        return false;
+                    }
+                }
+            }
+        }
+    }
+    return true;
+}
 void solve() {
     int n;
     cin >> n;
-    input(v, n);
-    // construct ci
-    vi c = v;
+
+    vi e, o;
     repo(i, 1, n) {
-        c[i - 1] = c[i - 1] + i;
+        if (i % 2 == 0)
+            e.pb(i);
+        else
+            o.pb(i);
     }
-    /*
-        we pick the largest element in the ci and decrease all the
-        further occurences of ci from the ci array
-    */
-    map<int, int> mp;
-    for (auto x : c) {
-        mp[x]++;
-    }
-    // print(mp);
     vi ans;
-    while (!(mp.empty())) {
-        // itertor to last element
-        auto it = --mp.end();
-        int ele = it->first;
-        int fre = it->second;
-        mp.erase(it);
-        ans.pb(ele);
-        fre--;
-        if (fre) {
-            mp[ele - 1] += fre;
-        }
+    reverse(e);
+    rep(i, 0, min(sz(e), sz(o))) {
+        ans.pb(o[i]);
+        ans.pb(e[i]);
+    }
+    if (sz(e) > sz(o)) {
+        ans.pb(e.back());
+    } else if (sz(o) > sz(e)) {
+        ans.pb(o.back());
     }
     print(ans);
+    // cout << check(ans) << endl;
 }
 signed main() {
     fastio();

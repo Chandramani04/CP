@@ -245,35 +245,13 @@ vi frequency(vi v) {
 void solve() {
     int n;
     cin >> n;
-    input(v, n);
-    // construct ci
-    vi c = v;
-    repo(i, 1, n) {
-        c[i - 1] = c[i - 1] + i;
+    input(v, 2 * n);
+    sorted(v);
+    int ans = 0;
+    for (int i = 0; i < 2 * n; i += 2) {
+        ans += v[i];
     }
-    /*
-        we pick the largest element in the ci and decrease all the
-        further occurences of ci from the ci array
-    */
-    map<int, int> mp;
-    for (auto x : c) {
-        mp[x]++;
-    }
-    // print(mp);
-    vi ans;
-    while (!(mp.empty())) {
-        // itertor to last element
-        auto it = --mp.end();
-        int ele = it->first;
-        int fre = it->second;
-        mp.erase(it);
-        ans.pb(ele);
-        fre--;
-        if (fre) {
-            mp[ele - 1] += fre;
-        }
-    }
-    print(ans);
+    cout << ans << endl;
 }
 signed main() {
     fastio();
