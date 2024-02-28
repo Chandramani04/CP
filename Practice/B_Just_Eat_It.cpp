@@ -242,32 +242,32 @@ vi frequency(vi v) {
 }
 
 /*---------------------------Code Begins---------------------------------------*/
-int maxisum_sum_subarray(vi &v) {
+int mss1(vi &v) {
     int n = sz(v);
-    int max_so_far = INT_MIN, max_till_now = 0;
-    for (int i = 0; i < n - 1; i++) {
-        max_till_now += v[i];
-        if (max_till_now > max_so_far) max_so_far = max_till_now;
-        if (max_till_now < 0) max_till_now = 0;
+    vi dp(n);
+    dp[0] = v[0];
+    rep(i, 1, n - 1) {
+        dp[i] = max(v[i], dp[i - 1] + v[i]);
     }
-    return max_so_far;
+    dp[n - 1] = -1e9;
+    return maxel(dp);
 }
-int maxisum_sum_subarray2(vi &v) {
+int mss2(vi &v) {
     int n = sz(v);
-    int max_so_far = INT_MIN, max_till_now = 0;
-    for (int i = 1; i < n; i++) {
-        max_till_now += v[i];
-        if (max_till_now > max_so_far) max_so_far = max_till_now;
-        if (max_till_now < 0) max_till_now = 0;
+    vi dp(n);
+    dp[0] = -1e9;
+    rep(i, 1, n) {
+        dp[i] = max(v[i], dp[i - 1] + v[i]);
     }
-    return max_so_far;
+    return maxel(dp);
 }
 void solve() {
     int n;
     cin >> n;
     input(v, n);
     int yasser = sum(v);
-    int adel = max(maxisum_sum_subarray(v), maxisum_sum_subarray2(v));
+    // int adel = max(maxisum_sum_subarray(v), maxisum_sum_subarray2(v));
+    int adel = max(mss1(v), mss2(v));
     // cout << yasser << " " << adel << endl;
     if (yasser > adel)
         cout << "YES\n";
