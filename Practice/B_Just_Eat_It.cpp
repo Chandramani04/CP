@@ -261,6 +261,22 @@ int mss2(vi &v) {
     }
     return maxel(dp);
 }
+// dp way of kadanen's alogrithms
+int kadande_algo(vector<int>&v){
+    // maximum subarray sum 
+    int n = v.size();
+    // dp[i] -> maximum subarray sum ending at i , either we continue our previuos subarray sum and add current sum or we start
+    // a new subarray from current index 
+    int dp[n];
+    dp[0] = v[0];
+    for(int i = 1;i<n;i++){
+        int include = dp[i-1] + v[i];
+        int exclude = v[i];
+        dp[i] = max(include,exclude);
+    }
+    return dp[n-1];
+}
+
 void solve() {
     int n;
     cin >> n;
