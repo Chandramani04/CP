@@ -1,0 +1,152 @@
+                        CYBER SECURITY U1 NOTES                
+
+Cyber SECURITY = {
+    Is is the pratice of defending computers,servers and mobile devices,electronic systems,networks and data from malicious attacks.
+}
+Cybercrime = {
+    It is a crime that involves a computer and a network.
+    example: hacking,phishing and spamming,credit card fraud and identity theft,child pornography and cyberstalking.
+}
+CIA = {
+    Confidentiality: It is the protection of data from unauthorized access.
+    Integrity: It is the protection of data from unauthorized modification.
+    Availability: It is the protection of data from unauthorized deletion.
+}
+Cybercriminals = {
+    They are the people who commit cybercrimes.
+    They are also known as hackers.
+    types of Cybercriminals are:
+        1.hungry for recognition
+        2.motivated by money
+        3.the insiders
+}
+Types of Cybercrimes => 
+    1. Crime against individuals :
+        a. phishing-> stealing personal information by pretending to be a legitimate company.
+        b. spamming-> sending unwanted messages to a large number of people.
+        c. Password sniffing-> stealing passwords by monitoring network traffic.
+        d. Spoofing-> pretending to be someone else.
+        e. Cyberstalking-> using the internet to stalk someone.
+        d. identity theft-> stealing personal information to commit fraud.
+    2. Crime against property :
+       a. Credit card fraud-> stealing credit card information to make unauthorized purchases.
+         b. Intellectual property theft-> stealing someone's ideas or inventions.
+    3. Crime against society/government :
+        a. Cyberterrorism-> using the internet to commit 
+        b. child pornography-> sharing explicit image/video of minors.
+        c. Web jacking-> taking control of a website.
+
+
+5p survival mantra for netizens:
+    1.Precaution -> being cautious and aware of the risks.
+    2.Prevention -> taking steps to avoid cybercrimes.
+    3.Protection -> using security measures to keep data safe.
+    4.Preservation -> keeping data safe and secure.
+    5.Preserverance -> being persistent and not giving up.
+
+how Cybercriminals plans their attack:
+    1. Reconnaissance -> gathering information about the target.
+    2. Scanning -> looking for vulnerabilities in the target.
+    3. Gaining access -> finding a way to get into the target.
+    4. Maintaining access -> staying in the target without being detected.
+    5. Covering tracks -> removing evidence of the attack.
+
+Social Enginnering:
+    a. It is the art of manipulating people so they give up confidential information.
+    b. Using psychological tricks to get people to do what they want.
+    c. Art of exploiting human trust to get information.
+    d. Goal is to fool people into giving up information.
+    e. Social engineer studies human psychology .
+
+    types of social engineering are:
+        1. human-based social engineering => 
+            a. person-to-person contact to get information.
+            b. example: phishing,pretexting, baiting.
+            c. posing as a legitimate company to get information.
+            d. posing as a friend to get information.
+            e. posing as a important person to get information.
+        
+        2. computer-based social engineering =>
+            a. using technology to get information.
+            b. example: phishing,pretexting, baiting.
+            c. using email to get information.
+            d. using a website to get information.
+            e. using a fake login page to get information.
+
+
+Cyber Stalking :
+    a.It is use of the internet to stalk or harass an individual,group,or organization.
+    b.It is a form of cyberbullying.
+    c.It included threats,harassment,or ID theft.
+
+    Types of stalkers:
+        1.Online stalker -> using the internet to stalk someone. ex: emails,chat rooms.
+        2.Offline stalker -> using the internet to stalk someone.
+        ex: following someone in real life.
+
+    how stalking works:
+        1. the stalker finds a target.
+        2. the stalker gathers information about the target.
+        3. the stalker uses the information to harass the target.
+        4. the stalker tries to control the target. 
+
+CyberCafe : 
+    It is a place where people can use the internet by paying money.
+    It has played a major role in digital revoultion.
+
+    Precaution measures -> 
+    Logout ,don't let anyone see your screen,clear history and cache,use a strong password,use virtual keyboard,use secure connection.
+
+Botnets :  
+    Bot -> automated program for doing some particular task on the internet.
+    Botnet -> network of bots.
+    Botmaster -> person who controls the botnet.
+        Figure:
+        attacker -> botmaster -> botnet -> victim
+
+    Why botnets are called fuel of cybercrimes? 
+    a. massive computing power 
+    b. anonymous
+    c. distributed attack
+    d. spreading malware
+    e. stealing information
+    f. sending spam
+
+    Precaution measures ->
+    a. keep software updated
+    b. use antivirus software
+    c. use firewall
+    d. use strong password
+    e. use secure connection
+
+
+Technical Terms : 
+
+Malware : 
+    It a malicious software that is designed to damage or disrupt a computer system. 
+    ex : virus,worms,spyware.
+Adware : 
+    It is a software that displays unwanted ads.
+Spyware :
+    It is a software that collects information about a person or organization without their knowledge.
+Spam : 
+    It is a unwanted messages sent to a large number of people.
+Spam dexing : 
+    It is a practice of manipulating search engine results.
+DDos : 
+    It is a distributed denial of service attack.
+    Increase traffic to a website to make it unavailable.
+
+
+Attack Vector : 
+    It is a path by which a hacker can gain access to a network server in order to deliver a payload or malicious outcome.
+    ex : email,website,usb drive.
+
+    Diagram -> 
+Attacker -> {Phising, vulnerabilities,  Open ports,  insiders}-> attack on  Weakness in software -> servers stop working -> data loss
+
+                     
+                      
+            
+
+    
