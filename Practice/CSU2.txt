@@ -1,0 +1,87 @@
+1. Proliferation of Mobile and Wireless Devices :
+
+        a.Proliferation means growth .
+        b. reducing size and cost played major role .
+        c. earlier users have to decide between Wireless phone and PDA( Personal Digital Assistant) but now they can have both in single device.
+        d. today users have compact smartphone with internet browing capabilities.
+        e. simple hand held devices are now capable of running complex applications.
+        f. MOBILE COMPUTING =  transfer of data, voice and video from computer to other devices .
+        e. Types of Mobile computers : 
+        Portable Computer -> ex. -> laptop, keyboard attached to screen. foldable and easy to carry.
+        Tablet Pc -> ex. -> ipad, touch screen, no keyboard.
+        Internet Tablet -> Focussed on internet browsing, email, multimedia, games, etc.
+        PDA ->  used for personal information management, calendar, contacts, etc.
+        smartphone -> combination of PDA and mobile phone. powerful processors and large memory. 
+
+
+    Imp terms :
+    1. Mobile COMPUTING : transfer of data, voice and video from computer to other devices .     mobile setting, Wireless connectivity.
+    2. Wireless computing : utilizing wireless network for data transfer. , wireless data transmission .
+    3. hand-held devices : small,portable,one handed operation, ex. -> smartphone, PDA, etc. , task specific design.
+
+2. Credit Card Fraud in Mobile and Wireless Applications :
+
+        Credit card fruad = unauthorized use of credit card to obtain goods or services.    , 3 types of frauds ->
+        a. Lost or stolen card fraud : card is lost or stolen and used by unauthorized person.
+        b. Card not present fraud : card details are used to make online purchases.
+        c. Counterfeit card fraud : card details are copied and used to make purchases.
+
+        to protect from frauds, credit card companies have implemented various security measures like ->
+        Do's ->
+        a. Chip and pin technology : chip embedded in card, pin is required to make transaction.
+        b. sing you credit card 
+        c. make photocopy of both side to recover card number 
+        d. change the default pin provided by bank.
+        e. use secure websites for online transactions.
+        f. enter your pin in only secure environment.
+
+        Don'ts -> 
+
+        a. don't share your pin with anyone.
+        b. don't write your pin on card.
+        c. don't use your card on unsecure websites.
+        d. don't use your card on unsecure atm's.
+        e. don't leave your card unattended.
+        f. don't leave your payment receipt unattended.
+
+
+
+3. Attack on Mobile / Security challenges : 
+    Security challenges posed by mobile devices are ->
+        a. Managing the Registry setting and configuartion : unauthorized users may try to change the registry settings and configuration of mobile devices.
+                            ex: Microsoft Async Services, used to synchronize data between mobile devices and desktops.
+        b. Mangaging the Authentications service security : PIN, password, biometric, etc.
+        c. Cryptography security : securing data on mobile during transmission and storage.
+        d. LDAP security : Lightweight Directory Access Protocol, used to access and maintain directory services.
+        e. RAS security : Remote Access Serever security, used to connect to remote network.
+        f. Medial player control security 
+        g. networking API security : Application Programming Interface, used to connect to network.
+    
+    Attacks on smartphone  -> 
+    1.Mobile phone theft : physically stealing the phone.
+    2.Mobile Virues : malicious software that can infect mobile devices to steal data.
+    3. Mishing(mobile phishing) : stealing personal information by sending text messages.
+    4. Vishing(voice phishing) : stealing personal information by making phone calls.
+    5.Smishing (SMS phishing) : stealing personal information by sending SMS.
+    6.hacking bluetooth : unauthorized access to bluetooth enabled devices.
+
+4. Mobile Devices : security implications for organizations : 
+    Threats to organizations from mobile devices are -> 
+    1. Managing everyone's people devices which are given by organization - > 
+        Kon kya use kr rha hai , koi unauthorized use to nhi kr rha , after office hours use to nhi kr rha , etc.
+    2. Storage devices (Usb,Pendrive) threate - > 
+        usb se data to nhi chura rha , koi virus to nhi dal rha system me , due to compact size difficult to detect. 
+    3. Lost or stolen devices - > 
+        unauthorized access , value of data stored in device > value of device. 
+
+5. Organizational Measures for Mobile : 
+    organization kya kr skti hai mobile devices se data chori hone se bachane ke liye ->
+    1. Encrypt their DATABASE : 
+        data ko encrypt krke store krna , so that even if device is lost or stolen , data is safe.
+        strong encryption algorithm use krna.
+    2. 2factor authentication : 
+        2factor authentication use krna , like password and OTP.
+    3.Awareness and training : 
+        employees ko training deni chahiye , how to use mobile devices securely.
+    4. usb,pendrive ko allow nhi krna . 
+    5. in case of lost device , turant police station jake cyber cell me report krna , aur us device ko remotely wipe krna.
