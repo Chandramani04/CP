@@ -15,16 +15,13 @@ typedef tree<int, null_type, less<int>, rb_tree_tag,
     cin.tie(NULL);                    \
     cout.tie(NULL)
 #define int long long int
-#define pb emplace_back
-#define ff first
-#define ss second
+#define pb push_back
 #define setbits __builtin_popcountll
 #define clz __builtin_clzll
 #define ctz __builtin_ctzll
 #define sz(x) ((int)(x).size())
 #define all(x) (x).begin(), (x).end()
 #define reverse(x) (reverse(all(x)))
-#define pll pair<int, int>
 #define rep(i, a, n) for (int i = a; i < (n); ++i)
 #define repo(i, a, b) for (int i = a; i <= b; ++i)
 #define per(i, a, b) for (int i = a; i >= b; i--)
@@ -243,28 +240,23 @@ vi frequency(vi v) {
 
 /*---------------------------Code Begins---------------------------------------*/
 void solve() {
-    int n;
-    cin >> n;
-    input(v, n);
-    rep(i, 0, n - 2) {
-        if (v[i] < 0) {
-            cout << "NO" << endl;
-            return;
-        }
-        if (v[i] == 0) {
-            continue;
-        }
-        v[i + 1] -= 2 * v[i];
-        v[i + 2] -= v[i];
-        v[i] = 0;
+    int a, b, c;
+    cin >> a >> b >> c;
+    int ans = a;
+    ans += b / 3;
+    if (b % 3 != 0) {
+        ans++;
+        c -= 3 - (b % 3);
     }
-    for (auto x : v) {
-        if (x) {
-            cout << "NO" << endl;
-            return;
-        }
+    if (c < 0) {
+        cout << -1 << endl;
+        return;
     }
-    cout << "YES" << endl;
+    ans += c / 3;
+    if (c % 3 != 0) {
+        ans++;
+    }
+    cout << ans << endl;
 }
 signed main() {
     fastio();

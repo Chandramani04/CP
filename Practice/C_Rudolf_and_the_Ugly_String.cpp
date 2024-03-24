@@ -15,16 +15,13 @@ typedef tree<int, null_type, less<int>, rb_tree_tag,
     cin.tie(NULL);                    \
     cout.tie(NULL)
 #define int long long int
-#define pb emplace_back
-#define ff first
-#define ss second
+#define pb push_back
 #define setbits __builtin_popcountll
 #define clz __builtin_clzll
 #define ctz __builtin_ctzll
 #define sz(x) ((int)(x).size())
 #define all(x) (x).begin(), (x).end()
 #define reverse(x) (reverse(all(x)))
-#define pll pair<int, int>
 #define rep(i, a, n) for (int i = a; i < (n); ++i)
 #define repo(i, a, b) for (int i = a; i <= b; ++i)
 #define per(i, a, b) for (int i = a; i >= b; i--)
@@ -242,54 +239,89 @@ vi frequency(vi v) {
 }
 
 /*---------------------------Code Begins---------------------------------------*/
+bool mapie(string& s, int i) {
+    string cur = "";
+    int j = i;
+    while (j < sz(s) and sz(cur) < 5) {
+        cur += s[j];
+        j++;
+    }
+    if (cur == "mapie") return true;
+    return false;
+}
+bool is_map(string& s, int i) {
+    string cur = "";
+    int j = i;
+    while (j < sz(s) and sz(cur) < 3) {
+        cur += s[j];
+        j++;
+    }
+    if (cur == "map") return true;
+    return false;
+}
+bool pie(string& s, int i) {
+    string cur = "";
+    int j = i;
+    while (j < sz(s) and sz(cur) < 3) {
+        cur += s[j];
+        j++;
+    }
+    if (cur == "pie") return true;
+    return false;
+}
 void solve() {
     int n;
     cin >> n;
     string s;
     cin >> s;
-    map<char, int> mp;
-    string temp;
     int cnt = 0;
-    set<string> p = {"map", "pie", "mapie"};
-    set<char> sett = {'m', 'a', 'i', 'e', 'p'};
+    rep(i, 0, n - 2) {
+        auto n = s.substr(i, 3);
+        if (n == "map" or n == "pie") {
+            cnt++;
+            i += 2;
+        }
+    }
+    cout << cnt << endl;
+    return;
+    vector<pair<char, int>> v;
     rep(i, 0, n) {
-        if (sett.count(s[i]) == 0) {
-            // check for the found string
-
-            mp.clear();
-            temp = "";
+        if (sz(v) == 0) {
+            v.pb({s[i], 1});
         } else {
-            if (sz(temp) == 0) {
-                temp += s[i];
+            if (v.back().first == s[i]) {
+                v.back().second++;
             } else {
-                if (temp.back() != s[i]) {
-                    temp += s[i];
-                }
-                if (sz(temp) == 3) {
-                    if (p.find(temp) == p.end()) {
-                        temp = temp.back();
-                    }
-                }
+                v.pb({s[i], 1});
             }
         }
-        // map , pie , mapie
     }
-
-    stack<char> st;
-    rep(i, 0, n) {
-        if (sz(st) == 0) {
-            st.push(s[i]);
-        } else if (st.top() != s[i]) {
-            st.push(s[i]);
+    string str = "";
+    vi f;
+    for (auto x : v) {
+        str += x.first;
+        f.pb(x.second);
+    }
+    int i = 0;
+    while (i < n) {
+        if (mapie(str, i)) {
+            int opa = f[i + 2];
+            int opb = min(f[i], f[i + 1]) + min(f[i + 3], f[i + 4]);
+            cnt += min(opa, opb);
+            i += 5;
+        } else if (is_map(str, i)) {
+            int op = min({f[i], f[i + 1], f[i + 2]});
+            cnt += op;
+            i += 3;
+        } else if (pie(str, i)) {
+            int op = min({f[i], f[i + 1], f[i + 2]});
+            cnt += op;
+            i += 3;
+        } else {
+            i++;
         }
     }
-    string un = "";
-    while (!st.empty()) {
-        un += st.top();
-        st.pop();
-    }
-    reverse(un);
-    cout << un << endl;
+    cout << cnt << endl;
 }
 signed main() {
     fastio();
