@@ -1,8 +1,7 @@
 {
     "files.associations": {
-        "cmath": "cpp",
         "ostream": "cpp",
+        "bitset": "cpp",
         "iostream": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "enabled"
+    }
 }
