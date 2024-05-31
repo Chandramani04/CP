@@ -285,7 +285,7 @@ void solve() {
         else
             y--;
     }
-    if ((x & 1 )or (y & 1)) {
+    if ((x & 1) or (y & 1)) {
         cout << "NO" << endl;
         return;
     }
@@ -375,8 +375,6 @@ void solve() {
         }
     }
     cout << ans << endl;
-
-    // Dog dog = new dog();
 }
 signed main() {
     fastio();
