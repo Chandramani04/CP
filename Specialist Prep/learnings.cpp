@@ -60,6 +60,9 @@ using namespace std;
 //     cout << intersectingIntervals << endl;
 // }
 
+
+// Use of Multimap for storing multiple values for same key
+
 int main() {
     return 0;
 }
