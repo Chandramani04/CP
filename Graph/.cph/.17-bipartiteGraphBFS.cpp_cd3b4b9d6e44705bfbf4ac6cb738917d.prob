@@ -1,0 +1,1 @@
+{"name":"Local: 17-bipartiteGraphBFS","url":"/home/cmd/Documents/Graph/17-bipartiteGraphBFS.cpp","tests":[{"id":1720364647762,"input":"6 6\n1 2\n2 3\n2 4 \n4 5\n3 6\n5 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/cmd/Documents/Graph/17-bipartiteGraphBFS.cpp","group":"local","local":true}

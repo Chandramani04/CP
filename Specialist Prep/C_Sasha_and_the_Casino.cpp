@@ -8,10 +8,6 @@ using namespace __gnu_pbds;
 typedef tree<int, null_type, less<int>, rb_tree_tag,
              tree_order_statistics_node_update>
     ordered_set;
-/*
-order_of_key (k) : Number of items strictly smaller than k
-find_by_order(k) : K-th element in a set (counting from zero)
-*/
 
 /*-------------------------------------------------------------------*/
 #define fastio()                      \
@@ -41,10 +37,6 @@ find_by_order(k) : K-th element in a set (counting from zero)
 #define lb(a, x) (lower_bound((a).begin(), (a).end(), (x)) - (a).begin())
 #define ub(a, x) (upper_bound((a).begin(), (a).end(), (x)) - (a).begin())
 #define vi vector<int>
-#define vpii vector<pair<int, int>>
-#define pii pair<int, int>
-#define F first
-#define S second
 #define input(v, n) \
     vi v(n);        \
     for (auto& x : v) cin >> x;
@@ -247,159 +239,33 @@ vi frequency(vi v) {
     }
     return ans;
 }
-vector<int> NlogNdivisors[1000101];  // NlogN 1e6 tak values
-void precomputeDivisors() {
-    for (int i = 1; i <= 1000100; i++) {
-        // if you want to count current i as a divisor of i itself
-        // Uncomment below line
-        // NlogNdivisors[i].push_back(i);
-        for (int j = 2 * i; j <= 1000100; j += i) {
-            NlogNdivisors[j].push_back(i);
-        }
-    }
-}
-void precomputePrimeDivisors() {
-    for (int i = 2; i <= 1000100; i++) {
-        if (NlogNdivisors[i].size() == 0) {
-            for (int j = i; j <= 1000100; j += i) {
-                NlogNdivisors[j].push_back(i);
-            }
-        }
-    }
-}
 
 /*---------------------------Code Begins---------------------------------------*/
 void solve() {
-    int n;
-    cin >> n;
-    input(v, n);
-    if (sum(v) & 1) {
-        cout << -1 << endl;
-        return;
+    int k, x, a;
+    cin >> k >> x >> a;
+    vi req;  // how much we need to maintain profit
+    req.pb(1);
+
+    for (int lost = 1; lost <= x; lost++) {
+        // suppose we win at ith round => prevLost = lost - 1
+        // if our current bet is B , then profit = B - (k-1)
+        //  - prevLost + profit  > 0 => B > prevLost/(k-1)
+        int prevLost = sum(req);
+        int mustForProfit = prevLost / (k - 1);
+        req.pb(mustForProfit + 1);
     }
-    vector<pair<int, int>> nonzero;
-    rep(i, 0, n) {
-        if (v[i] != 0) {
-            nonzero.pb({v[i], i});
+    rep(i, 1, sz(req)) {
+        req[i] += req[i - 1];
+    }
+    rep(i, 0, sz(req)) {
+        if (req[i] > a) {
+            cout << "NO" << endl;
+            return;
         }
     }
-    if (sz(nonzero) == 0) {
-        cout << 1 << endl;
-        cout << 1 << " " << n << endl;
-        return;
-    }
-    vector<vector<int>> ans;
-    for (int idx = 0; idx < sz(nonzero); idx += 2) {
-        int f = nonzero[idx].first, s = nonzero[idx + 1].first;
-        int fid = nonzero[idx].second, sid = nonzero[idx + 1].second;
-        if (f == 1) {
-            // 1 1
-            if (s == 1 and (sid - fid) & 1) {
-                ans.pb({nonzero[idx].second, nonzero[idx + 1].second});
-                continue;
-            }
-            // 1 -1
-            if (s == -1) {
-                ans.pb({nonzero[idx].second, nonzero[idx].second});
-                for (int i = nonzero[idx].second + 1; i < nonzero[idx + 1].second; i++) {
-                    ans.pb({i, i});
-                }
-                ans.pb({nonzero[idx + 1].second, nonzero[idx + 1].second});
-                continue;
-            }
-            // 1 , (0 1)
-            if (s == 1) {
-                if (sid - fid > 1) {
-                    ans.pb({fid, fid});
-                    for (int i = fid + 1; i < sid - 1; i++) {
-                        ans.pb({i, i});
-                    }
-                    ans.pb({sid - 1, sid});
-                    continue;
-                }
-            }
-            // (0 1) , 1
-            if (s == 1) {
-                // ans size zero
-                if (sz(ans) == 0) {
-                    if (fid > 0) {
-                        ans.pb({fid - 1, fid});
-                        ans.pb({sid, sid});
-                    }
-                }
-                // fid - ans.back().back() > 1
-                else if (fid - ans.back().back() > 1) {
-                    ans.pb({fid - 1, fid});
-                    ans.pb({sid, sid});
-                }
-            }
-        } else {
-            //  -1  -1
-            if (s == -1 and (sid - fid) & 1) {
-                ans.pb({nonzero[idx].second, nonzero[idx + 1].second});
-                continue;
-            }
-
-            // -1 , (0,-1)
-
-            if ((s == -1) and (sid - fid > 1)) {
-                ans.pb({fid, fid});
-                for (int i = fid + 1; i < sid - 1; i++) {
-                    ans.pb({i, i});
-                }
-                ans.pb({sid - 1, sid});
-                continue;
-            }
-
-            // (0,-1) -1
-
-            if ((s == -1)) {
-                if (sz(ans) == 0) {
-                    if (fid > 0) {
-                        ans.pb({fid - 1, fid});
-                        ans.pb({sid, sid});
-                    }
-                } else if (fid - ans.back().back() > 1) {
-                    ans.pb({fid - 1, fid});
-                    ans.pb({sid, sid});
-                }
-                continue;
-            }
-
-            // -1   1
-            if (s == 1) {
-                ans.pb({fid, fid});
-                for (int i = fid + 1; i < sid; i++) {
-                    ans.pb({i, i});
-                }
-                ans.pb({sid, sid});
-                continue;
-            }
-        }
-    }
-    vector<vector<int>> final;
-    if (ans[0][0] != 0) {
-        final.pb({0, ans[0][0] - 1});
-    }
-    final.pb(ans[0]);
-    rep(i, 1, sz(ans)) {
-        if (ans[i - 1][1] + 1 != ans[i][0]) {
-            final.pb({ans[i - 1][1] + 1, ans[i][0] - 1});
-        }
-        final.pb(ans[i]);
-    }
-    if (ans.back()[1] != n - 1) {
-        final.pb({ans.back()[1] + 1, n - 1});
-    }
-    cout << sz(final) << endl;
-    for (auto x : final) {
-        for (auto y : x) {
-            cout << y + 1 << " ";
-        }
-        cout << endl;
-    }
+    cout << "YES" << endl;
 }
-
 signed main() {
     fastio();
 

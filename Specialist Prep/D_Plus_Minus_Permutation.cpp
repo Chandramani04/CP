@@ -272,19 +272,17 @@ void precomputePrimeDivisors() {
 void solve() {
     int n, x, y;
     cin >> n >> x >> y;
-    int a = n / x, b = n / y, c = n / lcm(x, y);
-    int d = a - c, e = b - c;
-    int f = d - e;
-    cout<<a<<" "<<b<<" "<<c<<" "<<d<<" "<<e<<" "<<f<<endl;
-    if (f == 0) {
-        cout << 0 << endl;
-    } else if (f < 0) {
-        // sum of 1st f natural numbers
-        cout << (f * (f + 1) / 2) << endl;
-    } else {
-        // sum of last f natural numbers
-        cout << (f * (2 * n - f + 1) / 2) << endl;
-    }
+    int a = n / x, b = n / y, c = n / (lcm(x, y));
+    int f = a - c;
+    int r = b - c;
+
+    // sum of last f numbers from n
+    int start = n - f + 1;
+    int c1 = (f * (2 * start + f - 1)) / 2;
+
+    // sum of first r natural numbers
+    int c2 = (r * (r + 1)) / 2;
+    cout << c1 - c2 << endl;
 }
 signed main() {
     fastio();

@@ -1,0 +1,27 @@
+directed graph : a graph in which all the edges are directed from one vertex to another.
+undirected graph : a graph in which all the edges are bidirectional.
+
+cyclic graph : a graph that contains a cycle. A cycle is a path of edges that starts and ends on the same vertex.
+acyclic graph : a graph that does not contain a cycle.
+
+path : a sequence of vertices in a graph connected by edges. any vertex in the graph can be visited only once.
+
+degree of a vertex : the number of edges connected to a vertex.
+total degree of a graph = 2 * number of edges in the graph = sum of degrees of all vertices in the graph.
+
+for a directed graph : in-degree of a vertex = number of edges coming into the vertex.
+                      out-degree of a vertex = number of edges going out of the vertex.
+
+bipartite graph : a graph whose vertices can be divided into two disjoint sets such that no two vertices within the same set are adjacent.
+            color the vertices of the graph with two colors such that no two adjacent vertices have the same color.
+
+linear graph : a graph in which all vertices have degree 2. i.e. no cycle is present in the graph 
+
+all linear graphs are bipartite graphs but all bipartite graphs are not linear graphs.
+any graph with even cycle length is bipartite.
+
+topological sort : only possible for directed acyclic graphs(DAG).     by DFS 
+    nodes are arranged in such a way that if a node u has a directed edge to node v, then u comes before v in the ordering.
+
+
+Kahn's algorithm :  topo sort using BFS , only valid for DAG  

@@ -1,0 +1,1 @@
+{"name":"Local: 11-cycleUsingBFS","url":"/home/cmd/Documents/Graph/11-cycleUsingBFS.cpp","tests":[{"id":1720248221001,"input":"7 7\n1 2 \n1 3 \n2 5\n5 7\n7 6\n6 3\n3 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/cmd/Documents/Graph/11-cycleUsingBFS.cpp","group":"local","local":true}

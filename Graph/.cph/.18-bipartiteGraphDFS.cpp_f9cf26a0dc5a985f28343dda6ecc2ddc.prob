@@ -1,0 +1,1 @@
+{"name":"Local: 18-bipartiteGraphDFS","url":"/home/cmd/Documents/Graph/18-bipartiteGraphDFS.cpp","tests":[{"id":1720364980415,"input":"6 6\n1 2\n2 3\n2 4 \n4 5\n3 6\n5 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/cmd/Documents/Graph/18-bipartiteGraphDFS.cpp","group":"local","local":true}
