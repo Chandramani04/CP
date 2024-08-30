@@ -4,7 +4,10 @@ using namespace std;
 /*-----------------------------------------------------------------*/
 
 void solve() {
-    // DAG = Directed Acyclic Graph
+    //topo sort only applicable for  DAG = Directed Acyclic Graph
+    /*
+    topo sort : linear ordering of vertices such that if there is a edge bw u to v , then u appears before v in the ordering
+    */
     int n, m;
     cin >> n >> m;
     vector<int> adj[n + 1];
@@ -24,7 +27,7 @@ void solve() {
                 dfs(it);
             }
         }
-        st.push(node);
+        st.push(node);//push the current node into stack once all it's neighbours nodes dfs are calculated
     };
 
     // always start from 0
