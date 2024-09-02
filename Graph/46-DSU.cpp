@@ -15,6 +15,8 @@ Steps :
 find rank of their ultimate parent
 connect smaller rank to larger rank
 
+time complexity  of DSU = O( alpha(n) ) where alpha(n) is the inverse ackermann function 
+
 */
 
 #include "bits/stdc++.h";

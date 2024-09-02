@@ -27,18 +27,6 @@ vector<int> shortestPath(vector<vector<int>>& edges, int n, int m, int src) {
         }
     }
 
-    // queue<pair<int,int>>q;   
-    // q.push({src,0});
-    // while(!q.empty()){
-    //     int node = q.front().first , wt = q.front().second;
-    //     q.pop();
-    //     for(auto it:adj[node]){
-    //         if(dis[it]>wt+1){
-    //             dis[it] = wt + 1;
-    //             q.push({it,dis[it]});
-    //         }
-    //     }
-    // }
     for (int i = 0; i < n; i++) {
         if (dis[i] == 1e9) dis[i] = -1;
     }

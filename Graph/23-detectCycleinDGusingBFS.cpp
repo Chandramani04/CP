@@ -2,7 +2,7 @@
 using namespace std;
 #define int long long
 /*-----------------------------------------------------------------*/
-
+//detect cycle in directed graph using bfs 
 void solve() {
     int n, m;
     cin >> n >> m;
