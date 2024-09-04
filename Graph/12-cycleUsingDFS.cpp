@@ -45,10 +45,38 @@ void solve() {
         }
     }
 
+    /*
+        int cycle = 0 ;//flag to check cycle
+
+        vector<int>vis(n + 1, 0);
+        //vis[0] -> not visited , vis[1] -> vis in current path , vis[2] -> no cycle in current path
+
+
+        function<void(int)>dfs = [&](int node) {
+                vis[node] = 1 ;
+                for (auto it : adj[node]) {
+                        if (!vis[it]){
+                            dfs(it);
+                        }
+                        else if (vis[it] == 1) {
+                                cycle = 1;
+                        }
+                }
+                vis[node] = 2;//no cycle in this path
+        };
+        for (int i = 0; i < n; i++) {
+                if (!vis[i]) {
+                        dfs(i);
+                }
+        }
+        if (cycle) {
+                cout << -1 << endl;
+                return;
+        }
+    */
 
     // below code also works but it is not efficient
 
-    
     // vector<int> vis(n + 1, 0);
     // int cycle = 1;
     // function<void(int, int)> dfs = [&](int node, int parent) {
