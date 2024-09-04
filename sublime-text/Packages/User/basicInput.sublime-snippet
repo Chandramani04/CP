@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+#include "bits/stdc++.h";
+using namespace std;
+#define int long long
+const int mod = 1e9 + 7;
+/*-----------------------------------------------------------------*/
+
+void solve(){
+   
+}
+signed main(){
+    int testcase = 1;
+    cin >> testcase;
+    while (testcase--)
+        solve();
+}
+
+]]></content>
+  <tabTrigger>multiinput</tabTrigger>
+  <description>multiple input</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

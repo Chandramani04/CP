@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"C++ & C Single File Builder - Minghang Yang",
+		"CppFastOlympicCoding",
+		"gruvbox",
+		"Jedi - Python autocompletion",
+		"LSP",
+		"LSP-clangd",
+		"Material Theme",
+		"Package Control",
+		"Prettierd Format",
+		"Python 3",
+		"Python Completions",
+		"Sublime Tutor",
+		"SublimeAStyleFormatter",
+		"Theme - City Lights",
+		"Theme - Seti Monokai",
+	],
+}

@@ -1,0 +1,13 @@
+{
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"font_face": "JetBrains Mono",
+	"font_size": 13,
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"index_files": true,
+	"dark_theme": "Adaptive.sublime-theme",
+	"light_theme": "Adaptive.sublime-theme",
+	"theme": "auto",
+}

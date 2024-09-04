@@ -1,0 +1,1415 @@
+{
+	"file_history":
+	[
+		"/home/cmd/.config/sublime-text/Packages/CppFastOlympicCoding/FastOlympicCoding (Linux).sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/User/FastOlympicCoding.sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/LSP/LSP.sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/User/LSP.sublime-settings",
+		"/home/cmd/Documents/SUBLIME/263D.cpp",
+		"/home/cmd/Documents/CP/Graph/21-topoSort.cpp",
+		"/home/cmd/Documents/SUBLIME/one ans zero.cpp",
+		"/home/cmd/Documents/WEB DEV/LearnJS/helloworld.js",
+		"/home/cmd/Documents/WEB DEV/LearnJS/JsBasics.txt",
+		"/home/cmd/Documents/SUBLIME/Main.java",
+		"/home/cmd/Documents/SUBLIME/painterParition.cpp",
+		"/home/cmd/Documents/SUBLIME/u4PracticeProblems.py",
+		"/home/cmd/Documents/SUBLIME/test.py",
+		"/home/cmd/Documents/SUBLIME/u4.py",
+		"/home/cmd/Documents/SUBLIME/sample.txt",
+		"/home/cmd/Documents/SUBLIME/u3Function.py",
+		"/home/cmd/Documents/SUBLIME/u3Dictionary.py",
+		"/home/cmd/Documents/SUBLIME/u3Tupel.py",
+		"/home/cmd/Documents/SUBLIME/u3Lists.py",
+		"/home/cmd/Documents/SUBLIME/u3Strings.py",
+		"/home/cmd/Documents/SUBLIME/u2.py",
+		"/home/cmd/Documents/SUBLIME/u1.py",
+		"/home/cmd/Documents/SUBLIME/a.cpp",
+		"/home/cmd/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/Theme - Default/Adaptive.sublime-theme",
+		"/home/cmd/.config/sublime-text/Packages/User/Adaptive.sublime-theme",
+		"/home/cmd/.config/sublime-text/Packages/Default/Distraction Free.sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/User/Distraction Free.sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/User/SublimeAStyleFormatter.sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/SublimeAStyleFormatter/Default (Linux).sublime-keymap",
+		"/home/cmd/.config/sublime-text/Packages/Prettierd Format/prettierd_format.sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/User/prettierd_format.sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/User/C++.sublime-settings",
+		"/home/cmd/.config/sublime-text/Packages/User/boilerplate.sublime-snippet"
+	],
+	"folder_history":
+	[
+		"/home/cmd/Documents/SUBLIME",
+		"/home/cmd/Documents/CP/Graph"
+	],
+	"last_version": 4169,
+	"last_window_id": 22,
+	"log_indexing": false,
+	"next_update_check": 1725513722,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 0.0,
+		"new_window_maximized": true,
+		"new_window_position":
+		[
+			0.0,
+			72.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"mod",
+						"modadd"
+					],
+					[
+						"tota",
+						"totalWays"
+					],
+					[
+						"ul",
+						"ulp_u"
+					],
+					[
+						"puh",
+						"push_back"
+					],
+					[
+						"F",
+						"FunctionalInterface"
+					],
+					[
+						"pr",
+						"printTable"
+					],
+					[
+						"fil",
+						"finally"
+					],
+					[
+						"Ru",
+						"RuntimeException"
+					],
+					[
+						"inver",
+						"inverted_pyramid"
+					],
+					[
+						"tar",
+						"targetWord"
+					],
+					[
+						"cl",
+						"close"
+					],
+					[
+						"clo",
+						"close"
+					],
+					[
+						"rea",
+						"read"
+					],
+					[
+						"up",
+						"upperedString"
+					],
+					[
+						"pri",
+						"price"
+					],
+					[
+						"bran",
+						"myBrandModel"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							""
+						],
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							"Build and Run"
+						]
+					],
+					[
+						"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+						"Build and Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							""
+						],
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							"Build and Run"
+						]
+					],
+					[
+						"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+						"Build and Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Java/JavaC.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"ui ",
+						"UI: Customize Theme"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"toggle menu",
+						"View: Toggle Menu"
+					],
+					[
+						"ui",
+						"UI: Customize Theme"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"ui: custom",
+						"UI: Customize Theme"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/cmd/Documents/SUBLIME/263D.cpp",
+				"/home/cmd/.config/sublime-text/Packages/User/LSP.sublime-settings",
+				"/home/cmd/.config/sublime-text/Packages/LSP/LSP.sublime-settings",
+				"/home/cmd/Documents/CP/Graph/21-topoSort.cpp",
+				"/home/cmd/Documents/SUBLIME/one ans zero.cpp",
+				"/home/cmd/Documents/WEB DEV/LearnJS/helloworld.js",
+				"/home/cmd/Documents/WEB DEV/LearnJS/JsBasics.txt",
+				"/home/cmd/Documents/SUBLIME/Main.java",
+				"/home/cmd/Documents/SUBLIME/painterParition.cpp",
+				"/home/cmd/Documents/SUBLIME/u4PracticeProblems.py",
+				"/home/cmd/Documents/SUBLIME/test.py",
+				"/home/cmd/Documents/SUBLIME/u4.py",
+				"/home/cmd/Documents/SUBLIME/sample.txt",
+				"/home/cmd/Documents/SUBLIME/u3Function.py",
+				"/home/cmd/Documents/SUBLIME/u3Dictionary.py",
+				"/home/cmd/Documents/SUBLIME/u3Tupel.py",
+				"/home/cmd/Documents/SUBLIME/u3Lists.py",
+				"/home/cmd/Documents/SUBLIME/u3Strings.py",
+				"/home/cmd/Documents/SUBLIME/u2.py",
+				"/home/cmd/Documents/SUBLIME/u1.py",
+				"/home/cmd/Documents/SUBLIME/a.cpp",
+				"/home/cmd/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+				"/home/cmd/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+				"/home/cmd/.config/sublime-text/Packages/User/SublimeAStyleFormatter.sublime-settings",
+				"/home/cmd/.config/sublime-text/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
+				"/home/cmd/.config/sublime-text/Packages/SublimeAStyleFormatter/Default (Linux).sublime-keymap",
+				"/home/cmd/.config/sublime-text/Packages/User/boilerplate.sublime-snippet"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"incremental_find":
+			{
+				"height": 33.0
+			},
+			"input":
+			{
+				"height": 46.0
+			},
+			"menu_visible": true,
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.astyle_error_message":
+			{
+				"height": 0.0
+			},
+			"output.diagnostics":
+			{
+				"height": 162.0
+			},
+			"output.exec":
+			{
+				"height": 90.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 134.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"mod",
+						"modadd"
+					],
+					[
+						"tota",
+						"totalWays"
+					],
+					[
+						"ul",
+						"ulp_u"
+					],
+					[
+						"puh",
+						"push_back"
+					],
+					[
+						"F",
+						"FunctionalInterface"
+					],
+					[
+						"pr",
+						"printTable"
+					],
+					[
+						"fil",
+						"finally"
+					],
+					[
+						"Ru",
+						"RuntimeException"
+					],
+					[
+						"inver",
+						"inverted_pyramid"
+					],
+					[
+						"tar",
+						"targetWord"
+					],
+					[
+						"cl",
+						"close"
+					],
+					[
+						"clo",
+						"close"
+					],
+					[
+						"rea",
+						"read"
+					],
+					[
+						"up",
+						"upperedString"
+					],
+					[
+						"pri",
+						"price"
+					],
+					[
+						"bran",
+						"myBrandModel"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/cmd/Documents/SUBLIME/263D.cpp",
+					"settings":
+					{
+						"buffer_size": 6800,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							13,
+							1,
+							"insert",
+							{
+								"characters": "\njf"
+							},
+							"BAAAAFkYAAAAAAAAWhgAAAAAAAAAAAAAWhgAAAAAAABbGAAAAAAAAAAAAABbGAAAAAAAAFwYAAAAAAAAAAAAAFwYAAAAAAAAXRgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWRgAAAAAAABZGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							2,
+							"left_delete",
+							null,
+							"AgAAAFwYAAAAAAAAXBgAAAAAAAABAAAAZlsYAAAAAAAAWxgAAAAAAAABAAAAag",
+							"AQAAAAAAAAABAAAAXRgAAAAAAABdGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							15,
+							1,
+							"insert",
+							{
+								"characters": "\npr"
+							},
+							"BQAAAFsYAAAAAAAAXBgAAAAAAAAAAAAAXBgAAAAAAABdGAAAAAAAAAAAAABaGAAAAAAAAFoYAAAAAAAAAQAAAAlcGAAAAAAAAF0YAAAAAAAAAAAAAF0YAAAAAAAAXhgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWxgAAAAAAABbGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": "io"
+							},
+							"AgAAAF4YAAAAAAAAXxgAAAAAAAAAAAAAXxgAAAAAAABgGAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXhgAAAAAAABeGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							17,
+							1,
+							"insert",
+							{
+								"characters": "rity"
+							},
+							"BAAAAGAYAAAAAAAAYRgAAAAAAAAAAAAAYRgAAAAAAABiGAAAAAAAAAAAAABiGAAAAAAAAGMYAAAAAAAAAAAAAGMYAAAAAAAAZBgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYBgAAAAAAABgGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							18,
+							1,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AQAAAFwYAAAAAAAAXBgAAAAAAAAIAAAAcHJpb3JpdHk",
+							"AQAAAAAAAAABAAAAZBgAAAAAAABkGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": "ord"
+							},
+							"AwAAAFwYAAAAAAAAXRgAAAAAAAAAAAAAXRgAAAAAAABeGAAAAAAAAAAAAABeGAAAAAAAAF8YAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXBgAAAAAAABcGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AQAAAFwYAAAAAAAAXBgAAAAAAAADAAAAb3Jk",
+							"AQAAAAAAAAABAAAAXxgAAAAAAABfGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							21,
+							1,
+							"insert",
+							{
+								"characters": "minh"
+							},
+							"BAAAAFwYAAAAAAAAXRgAAAAAAAAAAAAAXRgAAAAAAABeGAAAAAAAAAAAAABeGAAAAAAAAF8YAAAAAAAAAAAAAF8YAAAAAAAAYBgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXBgAAAAAAABcGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							22,
+							4,
+							"left_delete",
+							null,
+							"BAAAAF8YAAAAAAAAXxgAAAAAAAABAAAAaF4YAAAAAAAAXhgAAAAAAAABAAAAbl0YAAAAAAAAXRgAAAAAAAABAAAAaVwYAAAAAAAAXBgAAAAAAAABAAAAbQ",
+							"AQAAAAAAAAABAAAAYBgAAAAAAABgGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							23,
+							1,
+							"insert",
+							{
+								"characters": "arr"
+							},
+							"AwAAAFwYAAAAAAAAXRgAAAAAAAAAAAAAXRgAAAAAAABeGAAAAAAAAAAAAABeGAAAAAAAAF8YAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXBgAAAAAAABcGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							24,
+							3,
+							"left_delete",
+							null,
+							"AwAAAF4YAAAAAAAAXhgAAAAAAAABAAAAcl0YAAAAAAAAXRgAAAAAAAABAAAAclwYAAAAAAAAXBgAAAAAAAABAAAAYQ",
+							"AQAAAAAAAAABAAAAXxgAAAAAAABfGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							1,
+							"insert",
+							{
+								"characters": "functoin"
+							},
+							"CAAAAFwYAAAAAAAAXRgAAAAAAAAAAAAAXRgAAAAAAABeGAAAAAAAAAAAAABeGAAAAAAAAF8YAAAAAAAAAAAAAF8YAAAAAAAAYBgAAAAAAAAAAAAAYBgAAAAAAABhGAAAAAAAAAAAAABhGAAAAAAAAGIYAAAAAAAAAAAAAGIYAAAAAAAAYxgAAAAAAAAAAAAAYxgAAAAAAABkGAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXBgAAAAAAABcGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							26,
+							1,
+							"insert",
+							{
+								"characters": "<"
+							},
+							"AQAAAGQYAAAAAAAAZRgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZBgAAAAAAABkGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": "void"
+							},
+							"BAAAAGUYAAAAAAAAZhgAAAAAAAAAAAAAZhgAAAAAAABnGAAAAAAAAAAAAABnGAAAAAAAAGgYAAAAAAAAAAAAAGgYAAAAAAAAaRgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZRgAAAAAAABlGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							1,
+							"insert_snippet",
+							{
+								"contents": "($0)"
+							},
+							"AQAAAGkYAAAAAAAAaxgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaRgAAAAAAABpGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							29,
+							1,
+							"insert",
+							{
+								"characters": "int,int"
+							},
+							"BwAAAGoYAAAAAAAAaxgAAAAAAAAAAAAAaxgAAAAAAABsGAAAAAAAAAAAAABsGAAAAAAAAG0YAAAAAAAAAAAAAG0YAAAAAAAAbhgAAAAAAAAAAAAAbhgAAAAAAABvGAAAAAAAAAAAAABvGAAAAAAAAHAYAAAAAAAAAAAAAHAYAAAAAAAAcRgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAahgAAAAAAABqGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							31,
+							1,
+							"insert",
+							{
+								"characters": ">"
+							},
+							"AQAAAHIYAAAAAAAAcxgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAchgAAAAAAAByGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"insert",
+							{
+								"characters": "rec"
+							},
+							"AwAAAHMYAAAAAAAAdBgAAAAAAAAAAAAAdBgAAAAAAAB1GAAAAAAAAAAAAAB1GAAAAAAAAHYYAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcxgAAAAAAABzGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							33,
+							1,
+							"insert",
+							{
+								"characters": " ="
+							},
+							"AgAAAHYYAAAAAAAAdxgAAAAAAAAAAAAAdxgAAAAAAAB4GAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdhgAAAAAAAB2GAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							34,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAHgYAAAAAAAAeRgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAeBgAAAAAAAB4GAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							1,
+							"insert_snippet",
+							{
+								"contents": "[$0]"
+							},
+							"AQAAAHkYAAAAAAAAexgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAeRgAAAAAAAB5GAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							36,
+							1,
+							"insert",
+							{
+								"characters": "&"
+							},
+							"AQAAAHoYAAAAAAAAexgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAehgAAAAAAAB6GAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"insert_snippet",
+							{
+								"contents": "($0)"
+							},
+							"AQAAAHwYAAAAAAAAfhgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAfBgAAAAAAAB8GAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							39,
+							1,
+							"insert",
+							{
+								"characters": "int"
+							},
+							"AwAAAH0YAAAAAAAAfhgAAAAAAAAAAAAAfhgAAAAAAAB/GAAAAAAAAAAAAAB/GAAAAAAAAIAYAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAfRgAAAAAAAB9GAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							40,
+							1,
+							"insert",
+							{
+								"characters": " node,p"
+							},
+							"BwAAAIAYAAAAAAAAgRgAAAAAAAAAAAAAgRgAAAAAAACCGAAAAAAAAAAAAACCGAAAAAAAAIMYAAAAAAAAAAAAAIMYAAAAAAAAhBgAAAAAAAAAAAAAhBgAAAAAAACFGAAAAAAAAAAAAACFGAAAAAAAAIYYAAAAAAAAAAAAAIYYAAAAAAAAhxgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAgBgAAAAAAACAGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							41,
+							1,
+							"left_delete",
+							null,
+							"AQAAAIYYAAAAAAAAhhgAAAAAAAABAAAAcA",
+							"AQAAAAAAAAABAAAAhxgAAAAAAACHGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							42,
+							1,
+							"insert",
+							{
+								"characters": "int"
+							},
+							"AwAAAIYYAAAAAAAAhxgAAAAAAAAAAAAAhxgAAAAAAACIGAAAAAAAAAAAAACIGAAAAAAAAIkYAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhhgAAAAAAACGGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							1,
+							"insert",
+							{
+								"characters": " parent"
+							},
+							"BwAAAIkYAAAAAAAAihgAAAAAAAAAAAAAihgAAAAAAACLGAAAAAAAAAAAAACLGAAAAAAAAIwYAAAAAAAAAAAAAIwYAAAAAAAAjRgAAAAAAAAAAAAAjRgAAAAAAACOGAAAAAAAAAAAAACOGAAAAAAAAI8YAAAAAAAAAAAAAI8YAAAAAAAAkBgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiRgAAAAAAACJGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							45,
+							1,
+							"insert_snippet",
+							{
+								"contents": "{$0}"
+							},
+							"AQAAAJEYAAAAAAAAkxgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkRgAAAAAAACRGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							1,
+							"insert",
+							{
+								"characters": ";"
+							},
+							"AQAAAJMYAAAAAAAAlBgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkxgAAAAAAACTGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							52,
+							1,
+							"lsp_apply_document_edit",
+							{
+								"changes":
+								[
+									{
+										"newText": "function",
+										"range":
+										{
+											"end":
+											{
+												"character": 9,
+												"line": 246
+											},
+											"start":
+											{
+												"character": 1,
+												"line": 246
+											}
+										}
+									}
+								],
+								"process_placeholders": false,
+								"required_view_version": 90
+							},
+							"AQAAAFwYAAAAAAAAZBgAAAAAAAAIAAAAZnVuY3RvaW4",
+							"AQAAAAAAAAABAAAAWxgAAAAAAACVGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							64,
+							1,
+							"astyleformat",
+							null,
+							"AwAAAG4YAAAAAAAAbxgAAAAAAAAAAAAAhxgAAAAAAACIGAAAAAAAAAAAAACTGAAAAAAAAJQYAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIBkAAAAAAAAgGQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							71,
+							1,
+							"run_macro_file",
+							{
+								"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+							},
+							"BgAAAJUYAAAAAAAAlhgAAAAAAAAAAAAAlhgAAAAAAACXGAAAAAAAAAAAAACXGAAAAAAAAJgYAAAAAAAAAAAAAJgYAAAAAAAAmRgAAAAAAAAAAAAAlhgAAAAAAACWGAAAAAAAAAEAAAAJlhgAAAAAAACYGAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlRgAAAAAAACVGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							77,
+							1,
+							"insert",
+							{
+								"characters": "adfs"
+							},
+							"BAAAAJgYAAAAAAAAmRgAAAAAAAAAAAAAmRgAAAAAAACaGAAAAAAAAAAAAACaGAAAAAAAAJsYAAAAAAAAAAAAAJsYAAAAAAAAnBgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmBgAAAAAAACYGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							78,
+							1,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AQAAAJgYAAAAAAAAmBgAAAAAAAAEAAAAYWRmcw",
+							"AQAAAAAAAAABAAAAnBgAAAAAAACcGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							81,
+							1,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AgAAAFwYAAAAAAAAXBgAAAAAAAAIAAAAZnVuY3Rpb26OGAAAAAAAAI4YAAAAAAAAAgAAAAkJ",
+							"AQAAAAAAAAABAAAAZBgAAAAAAABkGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							82,
+							1,
+							"insert",
+							{
+								"characters": "funct"
+							},
+							"BQAAAFwYAAAAAAAAXRgAAAAAAAAAAAAAXRgAAAAAAABeGAAAAAAAAAAAAABeGAAAAAAAAF8YAAAAAAAAAAAAAF8YAAAAAAAAYBgAAAAAAAAAAAAAYBgAAAAAAABhGAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXBgAAAAAAABcGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							83,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGAYAAAAAAAAYBgAAAAAAAABAAAAdA",
+							"AQAAAAAAAAABAAAAYRgAAAAAAABhGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							84,
+							1,
+							"insert",
+							{
+								"characters": "o"
+							},
+							"AQAAAGAYAAAAAAAAYRgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYBgAAAAAAABgGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							85,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGAYAAAAAAAAYBgAAAAAAAABAAAAbw",
+							"AQAAAAAAAAABAAAAYRgAAAAAAABhGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							86,
+							1,
+							"insert",
+							{
+								"characters": "itoin"
+							},
+							"BQAAAGAYAAAAAAAAYRgAAAAAAAAAAAAAYRgAAAAAAABiGAAAAAAAAAAAAABiGAAAAAAAAGMYAAAAAAAAAAAAAGMYAAAAAAAAZBgAAAAAAAAAAAAAZBgAAAAAAABlGAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYBgAAAAAAABgGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							94,
+							5,
+							"left_delete",
+							null,
+							"BQAAAGQYAAAAAAAAZBgAAAAAAAABAAAAbmMYAAAAAAAAYxgAAAAAAAABAAAAaWIYAAAAAAAAYhgAAAAAAAABAAAAb2EYAAAAAAAAYRgAAAAAAAABAAAAdGAYAAAAAAAAYBgAAAAAAAABAAAAaQ",
+							"AQAAAAAAAAABAAAAZRgAAAAAAABlGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							95,
+							1,
+							"insert",
+							{
+								"characters": "tion"
+							},
+							"BAAAAGAYAAAAAAAAYRgAAAAAAAAAAAAAYRgAAAAAAABiGAAAAAAAAAAAAABiGAAAAAAAAGMYAAAAAAAAAAAAAGMYAAAAAAAAZBgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYBgAAAAAAABgGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							108,
+							1,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AQAAAGUYAAAAAAAAZRgAAAAAAAAEAAAAdm9pZA",
+							"AQAAAAAAAAABAAAAaRgAAAAAAABpGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							109,
+							1,
+							"insert",
+							{
+								"characters": "int"
+							},
+							"AwAAAGUYAAAAAAAAZhgAAAAAAAAAAAAAZhgAAAAAAABnGAAAAAAAAAAAAABnGAAAAAAAAGgYAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZRgAAAAAAABlGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							114,
+							1,
+							"reindent",
+							null,
+							"AQAAAJUYAAAAAAAAlxgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlRgAAAAAAACVGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							115,
+							1,
+							"insert",
+							{
+								"characters": "return"
+							},
+							"BgAAAJcYAAAAAAAAmBgAAAAAAAAAAAAAmBgAAAAAAACZGAAAAAAAAAAAAACZGAAAAAAAAJoYAAAAAAAAAAAAAJoYAAAAAAAAmxgAAAAAAAAAAAAAmxgAAAAAAACcGAAAAAAAAAAAAACcGAAAAAAAAJ0YAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlxgAAAAAAACXGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							116,
+							1,
+							"insert",
+							{
+								"characters": " 0;"
+							},
+							"AwAAAJ0YAAAAAAAAnhgAAAAAAAAAAAAAnhgAAAAAAACfGAAAAAAAAAAAAACfGAAAAAAAAKAYAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAnRgAAAAAAACdGAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							119,
+							14,
+							"left_delete",
+							null,
+							"DgAAAGkYAAAAAAAAaRgAAAAAAAA7AAAAaW50LCBpbnQpPnJlYyA9IFsmXShpbnQgbm9kZSwgaW50IHBhcmVudCkgewoJCXJldHVybiAwOwoJfTtoGAAAAAAAAGgYAAAAAAAAAQAAAChnGAAAAAAAAGcYAAAAAAAAAQAAAHRmGAAAAAAAAGYYAAAAAAAAAQAAAG5lGAAAAAAAAGUYAAAAAAAAAQAAAGlkGAAAAAAAAGQYAAAAAAAAAQAAADxjGAAAAAAAAGMYAAAAAAAAAQAAAG5iGAAAAAAAAGIYAAAAAAAAAQAAAG9hGAAAAAAAAGEYAAAAAAAAAQAAAGlgGAAAAAAAAGAYAAAAAAAAAQAAAHRfGAAAAAAAAF8YAAAAAAAAAQAAAGNeGAAAAAAAAF4YAAAAAAAAAQAAAG5dGAAAAAAAAF0YAAAAAAAAAQAAAHVcGAAAAAAAAFwYAAAAAAAAAQAAAGY",
+							"AQAAAAAAAAABAAAApBgAAAAAAABpGAAAAAAAAAAAAAAAQGVA"
+						],
+						[
+							134,
+							1,
+							"astyleformat",
+							null,
+							"AQAAAFsYAAAAAAAAWxgAAAAAAAABAAAACQ",
+							"AQAAAAAAAAABAAAAPxcAAAAAAAA/FwAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							""
+						],
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							"Build and Run"
+						]
+					],
+					[
+						"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+						"Build and Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							""
+						],
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+							"Build and Run"
+						]
+					],
+					[
+						"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+						"Build and Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Java/JavaC.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"ui ",
+						"UI: Customize Theme"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"toggle menu",
+						"View: Toggle Menu"
+					],
+					[
+						"ui",
+						"UI: Customize Theme"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"ui: custom",
+						"UI: Customize Theme"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/cmd/Documents/SUBLIME"
+			],
+			"file_history":
+			[
+				"/home/cmd/.config/sublime-text/Packages/User/LSP.sublime-settings",
+				"/home/cmd/.config/sublime-text/Packages/LSP/LSP.sublime-settings",
+				"/home/cmd/Documents/SUBLIME/263D.cpp",
+				"/home/cmd/Documents/CP/Graph/21-topoSort.cpp",
+				"/home/cmd/Documents/SUBLIME/one ans zero.cpp",
+				"/home/cmd/Documents/WEB DEV/LearnJS/helloworld.js",
+				"/home/cmd/Documents/WEB DEV/LearnJS/JsBasics.txt",
+				"/home/cmd/Documents/SUBLIME/Main.java",
+				"/home/cmd/Documents/SUBLIME/painterParition.cpp",
+				"/home/cmd/Documents/SUBLIME/u4PracticeProblems.py",
+				"/home/cmd/Documents/SUBLIME/test.py",
+				"/home/cmd/Documents/SUBLIME/u4.py",
+				"/home/cmd/Documents/SUBLIME/sample.txt",
+				"/home/cmd/Documents/SUBLIME/u3Function.py",
+				"/home/cmd/Documents/SUBLIME/u3Dictionary.py",
+				"/home/cmd/Documents/SUBLIME/u3Tupel.py",
+				"/home/cmd/Documents/SUBLIME/u3Lists.py",
+				"/home/cmd/Documents/SUBLIME/u3Strings.py",
+				"/home/cmd/Documents/SUBLIME/u2.py",
+				"/home/cmd/Documents/SUBLIME/u1.py",
+				"/home/cmd/Documents/SUBLIME/a.cpp",
+				"/home/cmd/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+				"/home/cmd/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+				"/home/cmd/.config/sublime-text/Packages/User/SublimeAStyleFormatter.sublime-settings",
+				"/home/cmd/.config/sublime-text/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
+				"/home/cmd/.config/sublime-text/Packages/SublimeAStyleFormatter/Default (Linux).sublime-keymap",
+				"/home/cmd/.config/sublime-text/Packages/User/boilerplate.sublime-snippet"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"folders":
+			[
+				{
+					"path": "/home/cmd/Documents/SUBLIME"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/cmd/Documents/SUBLIME/263D.cpp",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6800,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6234,
+										6234
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": "<",
+											"selector": "text.html, text.xml"
+										},
+										{
+											"rhs_empty": true,
+											"selector": "punctuation.accessor"
+										},
+										{
+											"characters": ".<>:\"/*",
+											"selector": "punctuation.accessor | (meta.preprocessor.include string - punctuation.definition.string.end)",
+											"server": "clangd"
+										}
+									],
+									"lsp_active": true,
+									"lsp_uri": "file:///home/cmd/Documents/SUBLIME/263D.cpp",
+									"show_definitions": true,
+									"syntax": "Packages/C++/C++.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 5329.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 33.0
+			},
+			"input":
+			{
+				"height": 46.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.68,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.astyle_error_message":
+			{
+				"height": 0.0
+			},
+			"output.diagnostics":
+			{
+				"height": 162.0
+			},
+			"output.exec":
+			{
+				"height": 90.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,1920,1034,1920,1080,0",
+			"project": "",
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 1,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 134.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 20,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

@@ -1,0 +1,7 @@
+{
+	// Auto format on file save
+    "autoformat_on_save": true,
+    "options_default": {
+    	"style": "google",
+    }
+}

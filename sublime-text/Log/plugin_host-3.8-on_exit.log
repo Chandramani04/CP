@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/cmd/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/core/windows.py", line 414, in destroy
+  File "/home/cmd/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/core/windows.py", line 354, in _end_sessions_async
+  File "/home/cmd/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/core/sessions.py", line 2258, in end_async
+  File "/home/cmd/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/session_view.py", line 290, in shutdown_async
+  File "/home/cmd/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/documents.py", line 245, in on_session_shutdown_async
+  File "/home/cmd/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/session_view.py", line 87, in on_before_remove
+  File "/home/cmd/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/code_lens.py", line 132, in clear_view
+  File "/opt/sublime_text/Lib/python38/sublime.py", line 3909, in update
+    for phantom, region in zip(self.phantoms, regions):
+TypeError: 'NoneType' object is not iterable
